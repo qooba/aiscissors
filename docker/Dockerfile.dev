@@ -1,0 +1,11 @@
+FROM continuumio/miniconda3
+RUN apt update && apt install curl git cmake ack g++ python3-dev vim-youcompleteme tmux -yq
+RUN sh -c "$(curl -fsSL https://raw.githubusercontent.com/qooba/vim-python-ide/master/setup.sh)"
+RUN pip install rembg
+RUN conda install jupyterlab -c conda-forge
+RUN echo "alias ls='ls --color=auto'" >> /root/.bashrc
+COPY jupyter /root/.jupyter
+RUN pip install qdi fastapi uvicorn jinja2 aiofiles python-multipart
+ENV PYTHONPATH="/app:${PYTHONPATH}"
+WORKDIR /app
+CMD bin/bash

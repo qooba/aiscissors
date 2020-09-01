@@ -1,0 +1,6 @@
+__pycache__
+*.png
+*.jpg
+rembg/
+demo/
+u2net_models

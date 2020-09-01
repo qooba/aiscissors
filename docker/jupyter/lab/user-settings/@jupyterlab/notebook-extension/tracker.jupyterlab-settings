@@ -1,0 +1,14 @@
+{
+    "codeCellConfig": {
+        "fontFamily": "Ubuntu Mono",
+        "fontSize": 17,
+    },
+    "markdownCellConfig": {
+        "fontFamily": "Ubuntu Mono",
+        "fontSize": 17,
+    },
+    "rawCellConfig": {
+        "fontFamily": "Ubuntu Mono",
+        "fontSize": 17,
+    }
+}
