@@ -1,4 +1,5 @@
 Project which helps to remove background from images using neural networks (u2net architecture).
+Read more on: [https://qooba.net/2020/09/11/ai-scissors-sharp-cut-with-neural-networks/](https://qooba.net/2020/09/11/ai-scissors-sharp-cut-with-neural-networks/)
 
 # References
 
